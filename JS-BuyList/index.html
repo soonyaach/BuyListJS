@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head lang="ua">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Buy Cart</title>
+</head>
+<body>
+	<div class="forms">
+	<div class="first-form">
+
+		<section class="product-addition">
+			<input type="text" name="product-name" class="product-input" placeholder="Назва товару">
+			<button type="button" class="product-addition-button" data-tooltip="Додати">Додати</button>			
+		</section>
+
+		<hr>
+
+		<section class="products">
+
+			<section class="product-section">
+				<section class="product-name-section">
+					<p class="crossed-out-product-name">Помідори</p>
+				</section>
+				<section class="amount-block">	
+				<section class="number">					
+					<article class="amount">2</article>
+				</section>
+				</section>
+				<section class="block-button">
+					<button type="button" class="block-button-not-bought" data-tooltip="Не куплено">Не куплено</button>
+				</section>
+			</section>
+
+			<hr>
+
+			<section class="product-section">
+				<section class="product-name-section">
+					<p class="product-name">Печиво</p>
+				</section>
+				<section class="amount-block">
+				<section class="quantity-change-button">
+					<button type="button" class="decrease-quantity-field" data-tooltip="Зменшити">-</button>
+				</section>
+				<section class="number">
+					<article class="amount">2</article>
+				</section>
+				<section class="quantity-change-button">
+					<button type="button" class="increase-quantity-field" data-tooltip="Збільшити">+</button>
+				</section>
+				</section>
+				<section class="block-button">
+					<button type="button" class="block-button-bought" data-tooltip="Куплено">Куплено</button>
+					<button type="button" class="delete-button" data-tooltip="Видалити">×</button>
+				</section>
+			</section>
+
+			<hr>
+
+			<section class="product-section">
+				<section class="product-name-section">
+					<input type="text" name="product-name" class="second-product-input" placeholder="Сир">
+				</section>
+				<section class="amount-block">
+					<section class="quantity-change-button">
+						<button type="button" class="decrease-quantity-field-second" data-tooltip="Зменшити">-</button>
+					</section>
+					<section class="number">
+						<article class="amount">1</article>
+					</section>
+					<section class="quantity-change-button">
+						<button type="button" class="increase-quantity-field" data-tooltip="Збільшити">+</button>
+					</section>
+				</section>
+				<section class="block-button">
+					<button type="button" class="block-button-bought" data-tooltip="Куплено">Куплено</button>
+					<button type="button" class="delete-button" data-tooltip="Видалити">×</button>					
+				</section>
+			</section>
+		</section>
+	</div>
+	<div class="second-form">
+		<section class="remaining-products">
+			<p class="remain-title">Залишилося</p>
+		</section>
+
+		<hr>
+
+		<section class="product-labels">
+			<section class="product-label-section">
+				<p class="product-label-name">Печиво</p>
+				<p class="product-label-number">2</p>
+			</section>
+			<section class="product-label-section">
+				<p class="product-label-name">Сир</p>
+				<p class="product-label-number">1</p>
+			</section>
+		</section>
+
+		<hr>
+
+		<section class="bought-products">
+			<p class="bought-title">Куплено</p>
+		</section>
+
+		<hr>
+
+		<section class="product-labels">
+			<section class="product-label-section">
+				<p class="product-label-name-crossed-out">Помідори</p>
+				<p class="product-label-number-crossed-out">2</p>
+			</section>
+		</section>
+	</div>
+	</div>
+
+	<div class="badge-section">
+		<section class="visible-badge-section">
+			<p class="badge-name">Buy List</p>
+		</section>
+		<section class="non-visible-badge-section">
+			<p class="created-by">Created by:</p>
+			<p class="name">Sofiia Chornomaz</p>
+		</section>
+	</div>
+
+	<div class="print-badge">
+		<section class="print-badge-section">
+			<p class="print-created-by">Created by:</p>
+			<p class="print-name">Sofiia Chornomaz</p>
+		</section>
+	</div>
+	<script src="./script.js"></script>
+</body>
+</html>
